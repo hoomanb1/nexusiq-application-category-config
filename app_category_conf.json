@@ -1,0 +1,51 @@
+{
+  "applications": {
+    "apply": false,
+    "action": "assign",
+    "application_categories": [
+      {
+        "name": "test-10",
+        "description": "some tests"
+      },
+      {
+        "name": "test-11",
+        "description": "some tests 02"
+      }
+    ]
+  },
+  "organisations": [
+    {
+      "name": "Sandbox-01",
+      "action": "assign",
+      "application_categories": [
+        {
+          "name": "test-01",
+          "description": "some tests"
+        },
+        {
+          "name": "test-02",
+          "description": "some tests 02"
+        }
+      ]
+    },
+    {
+      "name": "Sandbox-02",
+      "action": "assign",
+      "application_categories": [
+        {
+          "name": "test-03",
+          "description": "some tests"
+        },
+        {
+          "name": "test-04",
+          "description": "some tests 02"
+        }
+      ]
+    }
+  ],
+  "nexus-IQ": {
+    "url": "http://localhost:8070",
+    "username": "admin",
+    "password": "admin"
+  }
+}
